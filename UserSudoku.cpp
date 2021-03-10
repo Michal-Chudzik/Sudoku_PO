@@ -8,20 +8,17 @@
 
 UserSudoku::UserSudoku() {
 	for (int i = 0; i < N; i++) {
-		for (int j = 0; j < N; j++)
-		{
+		for (int j = 0; j < N; j++){
 			plansza_poprawna[i][j] = 0;
 		}
 	}
 	for (int i = 0; i < N; i++) {
-		for (int j = 0; j < N; j++)
-		{
+		for (int j = 0; j < N; j++){
 			plansza_zero[i][j] = 0;
 		}
 	}
 	for (int i = 0; i < N; i++) {
-		for (int j = 0; j < N; j++)
-		{
+		for (int j = 0; j < N; j++){
 			user_input[i][j] = 0;
 		}
 	}
